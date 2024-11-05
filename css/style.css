@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.logoHeader{
+    width: 60px;
+    height: 60px;
+}
+
+footer{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+.logosNetworkings{
+    height: 40px;
+    width: 40px;
+}
