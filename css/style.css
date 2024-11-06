@@ -21,3 +21,46 @@ footer{
     height: 40px;
     width: 40px;
 }
+
+.card-group{
+    background-color: aqua;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+.card{
+    margin: 20px;
+}
+
+.card-img-top{
+    background-color: antiquewhite;
+    width: 100px;
+    height: 120px auto;
+}
+.Card-body{
+    background-color:greenyellow;
+    margin: 10px;
+}
+
+.card-title{
+    font-size: 80px;
+    background-color: blue;
+    size: 50px;
+}
+
+.card-text{
+    font-size: 15px;
+    color:azure;
+    background-color: goldenrod;
+}
+.allCards{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    
+}
+.items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
