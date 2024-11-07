@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.logoHeader{
+    width: 160px;
+    height: 100px auto;
+}
+
+footer{
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(41, 76, 131)
+}
+
+.logosNetworkings{
+    height: 40px;
+    width: 40px;
+    margin: 30px;
+}
