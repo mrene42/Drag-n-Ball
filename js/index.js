@@ -21,7 +21,7 @@ function createCharacterCard({name, ki, maxKi, race, gender, image, affiliation}
             <img src= "${image}" class="card-img-top" alt="allCards">
             <div class="Card-body" id="allCards"
                 <h5 class="card-title" id="allCards">${name}</h5>
-                <p class="card-text">${race} - ${gender}</p>
+                    <p class="card-text">${race} - ${gender}</p>
                 <h6 class="card-text" id="allCards">Base KI: ${ki}</h6>
                 <h6 class="card-text" id="allCards">Total KI: ${maxKi}</h6>
                 <h6 class="card-text" id="allCards">Afilliation: ${affiliation}</h6>

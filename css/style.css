@@ -16,7 +16,7 @@ footer{
     height: 120px;
     align-items: center;
     justify-content: center;
-    background-color:rgb(41, 76, 131)
+    background-color:#be790a
 
 }
 
@@ -38,6 +38,10 @@ body{
 
 .card{
     margin: 20px;
+    color:aqua;
+    font-size: 20px;
+    justify-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .card-img-top{
@@ -46,26 +50,16 @@ body{
 }
 
 .Card-body{
-    background-color:greenyellow;
     margin: 10px;
-}
-
-.card-title{
-    font-size: 80px;
-    background-color: blue;
-    size: 50px;
 }
 
 .card-text{
     font-size: 15px;
-    color:azure;
-    background-color: goldenrod;
+    color: white;
+    background-color: #de8900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
-.allCards{
-    display: flex;
-    justify-content: center;
-    
-}
+
 .items{
     display: flex;
     justify-content: center;
@@ -99,8 +93,10 @@ nav ul li:hover {
   }
 
   h1{
-    color: azure;
-    background-color: #eca023;
-    height: 60px;
-    
+    color: white;
+    background-color: #de8900;
+    height: 50px;
+    margin: 0% auto;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
