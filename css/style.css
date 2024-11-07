@@ -1,14 +1,14 @@
 header{
     display: flex;
     height: 100px;
-    align-items: center;
-    justify-content: center;
     background-color: black;
+    align-items: center;
 }
 
 .logoHeader{
     width: 160px;
     height: 100px auto;
+    padding-left: 360%;
 }
 
 footer{
@@ -24,6 +24,10 @@ footer{
     height: 40px;
     width: 40px;
     margin: 30px;
+}
+
+body{
+    margin: 0% auto;
 }
 
 .card-group{
@@ -68,3 +72,26 @@ footer{
     flex-wrap: wrap;
     background-color: blueviolet;
 }
+
+nav{
+    float: left;
+    padding-left: 70%;
+}
+
+nav ul li{
+    list-style:none;
+    overflow:hidden; 
+  }
+
+nav ul li a{
+    display: flex;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul li:hover {
+    background: #eca023;
+  }
