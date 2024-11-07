@@ -31,7 +31,7 @@ body{
 }
 
 .card-group{
-    background-color: aqua;
+    background-color: rgba(0, 0, 0, 0.804);
     border-radius: 30px;
     margin: 30px;
 }
@@ -41,10 +41,10 @@ body{
 }
 
 .card-img-top{
-    background-color: antiquewhite;
     width: 100px;
     height: 120px auto;
 }
+
 .Card-body{
     background-color:greenyellow;
     margin: 10px;
@@ -70,7 +70,9 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: blueviolet;
+    background-image: url(../img/backgroundCharacter.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
 
 nav{
@@ -94,4 +96,11 @@ nav ul li a{
 
 nav ul li:hover {
     background: #eca023;
+  }
+
+  h1{
+    color: azure;
+    background-color: #eca023;
+    height: 60px;
+    
   }
