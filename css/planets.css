@@ -79,12 +79,14 @@ main{
     color:aqua;
     font-size: 20px;
     justify-items: center;
+    background-color: rgba(0, 0, 0, 0.607);
+    border-radius: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .card-img-top{
-    width: 200px;
-    height: 200px auto;
+    width: 300px;
+    height: 300px auto;
     border-radius: 30px;
 }
 
