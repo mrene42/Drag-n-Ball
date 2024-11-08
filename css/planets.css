@@ -69,9 +69,9 @@ main{
 }
 
 .card-group{
-    margin: 50px;
     display:flex;
     justify-content: center;
+    margin-top: 60px;
 }
 
 .card{
