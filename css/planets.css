@@ -8,7 +8,7 @@ header{
 .logoHeader{
     width: 160px;
     height: 100px auto;
-    padding: 360%;
+    padding-left: 360%;
 }
 
 footer{
@@ -16,7 +16,7 @@ footer{
     height: 120px;
     align-items: center;
     justify-content: center;
-    background-color:rgb(41, 76, 131)
+    background-color:#be790a;
 }
 
 .logosNetworkings{
@@ -26,7 +26,7 @@ footer{
 }
 
 body{
-    margin: 0% auto;
+    margin: 0%;
 }
 
 nav{
@@ -50,4 +50,46 @@ nav ul li a{
 
 nav ul li:hover {
     background: #eca023;
+}
+
+h1{
+    color: white;
+    background-color: #de8900;
+    height: 50px;
+    margin: 0%;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    background-image: url(../img/backgroundPlanets.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+.card-group{
+    background-color: rgba(0, 0, 0, 0.804);
+    margin: 100px;
+    display:flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 20px;
+    color:aqua;
+    font-size: 20px;
+    justify-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-img-top{
+    width: 200px;
+    height: 200px auto;
+    border-radius: 30px;
+}
+
+.planets{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
