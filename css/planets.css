@@ -68,8 +68,7 @@ main{
 }
 
 .card-group{
-    background-color: rgba(0, 0, 0, 0.804);
-    margin: 5git 00px;
+    margin: 50px;
     display:flex;
     justify-content: center;
 }
